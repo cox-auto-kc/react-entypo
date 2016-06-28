@@ -1,0 +1,26 @@
+# Install modules
+node_modules/
+
+# log files
+*.log
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+#lib folder
+lib
+
+#Webstorm metadata
+.idea
+
+#VSCode metadata
+.vscode
+
+# Mac files
+.DS_Store
+
+# Node Version
+.nvmrc
