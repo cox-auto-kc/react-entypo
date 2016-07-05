@@ -1,6 +1,6 @@
 {
   "name": "react-entypo",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Entypo Icon React Component which outputs inline-SVGs",
   "keywords:": [
     "entypo",
@@ -16,11 +16,7 @@
     "type": "git",
     "url": "https://github.com/coxautokc/react-entypo"
   },
-  "config": {
-    "entry": "src",
-    "output": "lib",
-    "mainFile": "src/index.js"
-  },
+  "homepage": "https://github.com/coxautokc/react-entypo",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib"
@@ -34,9 +30,6 @@
     "babel-preset-stage-1": "^6.5.0",
     "react": "^15.0.1",
     "react-dom": "^15.0.1"
-  },
-  "engines": {
-    "node": ">=0.10.0"
   },
   "peerDependencies": {
     "react": ">=0.12.0"
