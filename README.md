@@ -28,11 +28,11 @@ import React from 'react';
 import {EntypoArrowBoldRight, EntypoCalculator} from 'react-entypo';
 ```
 
-...or, reference the icon by file. Initial path is 'react-entypo/lib/entypo/[ICONNAME]' where ICONNAME is the name of the icon (camelCased).**[1]**
+...or, reference the icon by file. Initial path is 'react-entypo/lib/entypo/[ICONNAME]' where ICONNAME is the name of the icon (PascalCased).**[1]**
 ```js
 import React from 'react';
-import EntypoArrowBoldRight from 'react-entypo/lib/entypo/arrowBoldRight';
-import EntypoCalculator from 'react-entypo/lib/entypo/calculator';
+import EntypoArrowBoldRight from 'react-entypo/lib/entypo/ArrowBoldRight';
+import EntypoCalculator from 'react-entypo/lib/entypo/Calculator';
 ```
 
 ...then reference like any other component: `<EntypoArrowBoldRight />`, `<EntypoCalculator/>`.
