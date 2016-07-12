@@ -13,16 +13,27 @@ class EntypoIcon extends React.Component {
       children,
       style,
       viewBox,
+      valign,
       propClass,
       ...other
     } = this.props;
 
-    const mergedStyles = Object.assign({
+    const defaultStyles = {
       display: 'inline-block',
       height: '1em',
       width: '1em',
+      fill: 'currentColor',
       userSelect: 'none'
-    }, style);
+    };
+
+    let verticalAlignment = (valign === false) ? {} : (valign === true) ? { verticalAlign: 'middle'} : { verticalAlign: valign};
+
+    const mergedStyles = (typeof style === 'undefined' || typeof style === 'object') ?
+      Object.assign(
+        defaultStyles,
+        verticalAlignment,
+        style
+      ) : {};
 
     let mergedClasses = this.props.className ? propClass+' '+this.props.className : propClass;
 
@@ -41,13 +52,21 @@ class EntypoIcon extends React.Component {
 
 EntypoIcon.defaultProps = {
   viewBox: '0 0 20 20',
-  preserveAspectRatio: 'xMidYMid meet'
+  preserveAspectRatio: 'xMidYMid meet',
+  valign: 'text-top'
 };
 
 EntypoIcon.propTypes = {
   children: PropTypes.node,
-  style: PropTypes.object,
+  style: PropTypes.oneOfType([
+    PropTypes.object,
+    PropTypes.bool
+  ]),
   viewBox: PropTypes.string,
+  valign: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.bool
+  ]),
   propClass: PropTypes.string
 };
 
