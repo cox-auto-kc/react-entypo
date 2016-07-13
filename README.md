@@ -9,7 +9,7 @@ The SVGs use the same names as the files in the Entypo SVG library, but camel-ca
 ## Install
 
 ```
-npm install --save react-entypo
+npm install --save-dev react-entypo
 ```
 
 ## Usage
