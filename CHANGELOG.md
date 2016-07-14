@@ -1,5 +1,10 @@
 # Changelog
 
+## [v1.2.1]
+> 2016-07-13
+
+- Added project page
+
 ## [v1.2.0]
 > 2016-07-11
 

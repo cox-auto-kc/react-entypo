@@ -5,11 +5,14 @@ React-Entypo sets up all the icons of the [Entypo SVG library](http://www.entypo
 
 The SVGs use the same names as the files in the Entypo SVG library, but camel-cased instead of hyphens, and any special characters removed.
 
+## Demo
+
+[https://coxautokc.github.io/react-entypo/](https://coxautokc.github.io/react-entypo/)
 
 ## Install
 
 ```
-npm install --save-dev react-entypo
+npm install --save react-entypo
 ```
 
 ## Usage
