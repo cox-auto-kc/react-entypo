@@ -1,5 +1,10 @@
 # Changelog
 
+## [v1.2.2]
+> 2016-07-26
+
+- Moved repo to [it's new home](https://github.com/cox-auto-kc/react-entypo).
+
 ## [v1.2.1]
 > 2016-07-13
 
