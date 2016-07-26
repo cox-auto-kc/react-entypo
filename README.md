@@ -7,7 +7,7 @@ The SVGs use the same names as the files in the Entypo SVG library, but camel-ca
 
 ## Demo
 
-[https://coxautokc.github.io/react-entypo/](https://coxautokc.github.io/react-entypo/)
+[https://cox-auto-kc.github.io/react-entypo/](https://cox-auto-kc.github.io/react-entypo/)
 
 ## Install
 
