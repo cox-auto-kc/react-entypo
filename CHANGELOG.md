@@ -1,5 +1,10 @@
 # Changelog
 
+## [v1.2.4]
+> 2016-08-22
+
+- Fixed bad attribute names on EnytpoAppStore icon.
+
 ## [v1.2.2]
 > 2016-07-26
 
