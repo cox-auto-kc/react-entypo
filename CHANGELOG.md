@@ -1,5 +1,10 @@
 # Changelog
 
+## [v1.2.5]
+> 2016-08-22
+
+- Replaced all instances of `clip-rule` and `fill-rule` with `clipRule` and `fillRule` (respectively) to fix React errors in the browser console.
+
 ## [v1.2.2]
 > 2016-07-26
 
