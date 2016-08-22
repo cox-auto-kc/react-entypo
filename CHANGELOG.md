@@ -3,7 +3,7 @@
 ## [v1.2.4]
 > 2016-08-22
 
-- Fixed bad attribute names on EnytpoAppStore icon.
+- Replaced all instances of `clip-rule` and `fill-rule` with `clipRule` and `fillRule` (respectively) to fix React errors in the browser console.
 
 ## [v1.2.2]
 > 2016-07-26
