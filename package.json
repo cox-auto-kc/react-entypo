@@ -34,6 +34,7 @@
   },
   "peerDependencies": {
     "react": "15.x.x",
-    "react-dom": "15.x.x"
+    "react-dom": "15.x.x",
+    "prop-types": "15.x.x"
   }
 }
