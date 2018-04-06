@@ -1,6 +1,8 @@
 # Entypo Icons - React Component
 > A React component for the Entypo SVG icon library.
 
+**NO LONGER MAINTAINED** - See [https://github.com/kevcenteno/react-entypo-icons](https://github.com/kevcenteno/react-entypo-icons) instead.
+
 React-Entypo sets up all the icons of the [Entypo SVG library](http://www.entypo.com/ "Entypo") to be used as components which will render as inline SVGs. Both the main set and the Social Extension are included. This component is designed to use Entypo SVGs as inline icons and are set with default inline styling to be the same size as the base text in the container they're placed. No CSS is supplied by 'react-entypo'; therefore, any other styles will have to be passed to the component or set by style declarations elsewhere.
 
 The SVGs use the same names as the files in the Entypo SVG library, but camel-cased instead of hyphens, and any special characters removed.
